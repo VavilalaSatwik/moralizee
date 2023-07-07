@@ -1,0 +1,259 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+*{
+	padding:0;
+	margin: 0;
+	font-family: 'josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+        align-items:center;
+        justify-content:center;
+	background-size: cover;
+	background-position: center;
+        background-color: 
+rgba(0,0,0,0.5);
+}
+
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color:white;
+	font-size:3.5vw;
+	letter-spacing: 0.6px;
+	cursor:pointer;
+}
+span{
+	color:#64CCC5;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+        padding-top: 30px;
+}
+
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+        font-size:1.2vw;
+	text-transform: capitalize;
+        
+}
+
+
+nav ul li a:hover{
+	color:#64CCC5;
+	transition: 1s;
+}
+.b_video{
+
+position:absolute;
+right:0;
+bottom:0;
+z-index:-1;
+width:100%;
+  
+}
+
+.content{
+      
+      position:relative;
+      top: 200px;
+      text-align: center;
+      font-size:10vw
+
+}
+.content h1{
+    font-size:85px;
+    font-size:5vw;
+    
+    align:center;
+
+    color:white;
+    font-weight:600;
+   
+}
+
+
+
+
+
+
+
+
+@media(min-aspect-ratio :16/9){
+.b_video{
+
+   width:100%;
+   height:auto;
+   max-width:100%;
+ 
+}
+}
+
+@media(max-aspect-ratio :16/9){
+.b_video{
+
+   width:100%;
+   height:auto;
+}
+}
+
+
+.Hm{
+ background-color:white ;
+}
+
+.Hm h1{
+
+    padding:180px;
+    font-size:3vw;
+    
+    align:left;
+
+    color:#001C30;
+    font-weight:600;
+ }
+
+.Ethics{
+
+background-color:#001C30;
+}
+
+.Em{
+
+padding:150px;
+
+}
+
+.Em h2{
+      font-size:4vw;
+      color: #64CCC5;
+      left:500px; 
+      }
+
+.Em h1{
+
+    font-size:2.5vw;
+    padding:50px;
+    align:center;
+
+    color:white;
+    font-weight:600;
+ }
+
+
+
+.culture{
+
+background-color:#001C30;
+}
+
+.clt{
+
+padding:150px;
+
+}
+
+.clt h2{
+      font-size:4vw;
+      color: #64CCC5;
+      left:500px; 
+      }
+
+.clt h1{
+
+    font-size:2.5vw;
+    padding:50px;
+    align:center;
+
+    color:white;
+    font-weight:600;
+ }
+
+.asses{ background-color:white;}
+.ast{
+
+padding : 200px;
+text-align:center;
+
+
+
+}
+
+.ast h1{
+
+     font-size:3vw;
+    font-weight:600;
+     color: #001C30;
+    
+     
+}
+
+.ast h2{
+
+    padding: 80px;
+    font-size:2.5vw;
+    color:#64CCC5;
+    
+ }
+
+.ast a{
+     
+        color:#001C30 ;
+	text-decoration: none;
+	font-weight: bold;
+        font-size:1.2vw;
+	text-transform: capitalize;
+	display:inline-block;
+        color:#001C30 ;
+        border: 2px solid #001C30 ;
+	padding: 14px 70px;
+        border-radius: 20px;
+        margin-top: 20px;
+        transition : 1s; 
+       
+     }
+.ast a:hover{
+
+         background-color:#64CCC5;
+         color:black;
+}
+
+.cnt{
+
+background-color: black;
+padding: 40px;
+}
+
+.cnt h1{
+
+font-size:2.0vw;
+font-weight:600;
+}
+
+.cnt h2{
+
+
+font-size:1.5vw;
+font-weight:600;
+}
+
+
+
+
